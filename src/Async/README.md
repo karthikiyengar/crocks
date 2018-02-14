@@ -746,7 +746,7 @@ const length =
 const repeat =
   char => n => char.repeat(n)
 
-// values :: Async String Number -> Async String Number
+// values :: Async String Number -> Async Number String
 const values =
   swap(length, repeat('a'))
 
